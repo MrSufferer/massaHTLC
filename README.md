@@ -1,6 +1,6 @@
 # 🌉 EVM ↔ Massa Atomic Swap System
 
-A complete, production-ready atomic swap implementation enabling trustless exchanges between EVM chains (Ethereum, Polygon, BSC, etc.) and Bitcoin. Built on battle-tested 1inch smart contracts with real Bitcoin HTLC integration.
+A complete, production-ready atomic swap implementation enabling trustless exchanges between EVM chains (Ethereum, Polygon, BSC, etc.) and Massa. Built on battle-tested 1inch smart contracts with real Massa HTLC integration.
 
 ## 🏗️ Architecture Overview
 
