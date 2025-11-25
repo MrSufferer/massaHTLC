@@ -1,0 +1,55 @@
+{
+  "orderId": "order_massa_1764052717779",
+  "timestamp": 1764052717779,
+  "network": "sepolia",
+  "chainId": 11155111,
+  "maker": {
+    "address": "0xeD37FD0d6F0f69236E7472B36796e133D20EcC32",
+    "provides": {
+      "asset": "ETH",
+      "amount": "10000000000000000"
+    },
+    "wants": {
+      "asset": "MASSA",
+      "amount": "1000000000",
+      "address": "AU131ocRAfTrQa5utwiRPWpC5aPTgr2EYvHHT8ZePwB18BgVrXCG"
+    }
+  },
+  "secret": "0x58a610b73445925153c0464c6ccef4e925fda21ce81f36c7e548c67fdd39b03f",
+  "hashlock": "0x0f20622785d3a1b6ed8bc49acd68a18663d24c6b64b33001e0b007eae9031335",
+  "timelock": {
+    "withdrawalPeriod": 0,
+    "cancellationPeriod": 3600
+  },
+  "status": "COMPLETED",
+  "contracts": {
+    "btcEscrowFactory": "0x46dD29f29FB4816A4E7bd1Dc6458d1dFCA097993",
+    "accessToken": "0x0843b69626d78874Dc1A2A576102E081d8bc5438"
+  },
+  "taker": {
+    "address": "0xeD37FD0d6F0f69236E7472B36796e133D20EcC32",
+    "massaAddress": "AU131ocRAfTrQa5utwiRPWpC5aPTgr2EYvHHT8ZePwB18BgVrXCG"
+  },
+  "massaHTLC": {
+    "orderId": "order_massa_1764052717779",
+    "contractAddress": "AS12iLKjMogXvxVcspy8JWzZfMxy3QmAt6PPuxaBVWwsFwJvxHq7m",
+    "hashlock": "0f20622785d3a1b6ed8bc49acd68a18663d24c6b64b33001e0b007eae9031335",
+    "timelock": "1764056864",
+    "amount": "1000000000",
+    "secret": "0x58a610b73445925153c0464c6ccef4e925fda21ce81f36c7e548c67fdd39b03f",
+    "funded": true,
+    "status": "Active",
+    "revealedSecret": "0x58a610b73445925153c0464c6ccef4e925fda21ce81f36c7e548c67fdd39b03f"
+  },
+  "evmEscrow": {
+    "address": "0xaEDA75c98e836417972D6300471e17479757aD0a",
+    "txHash": "0xe9146472ce852b5b16da7f3d011e893133e8bb9b7e31b0ec943ce52ba5f89c05",
+    "amount": "10000000000000000",
+    "safetyDeposit": "1000000000000000",
+    "creationFee": "1000000000000000"
+  },
+  "transactions": {
+    "evmEscrowCreation": "0xe9146472ce852b5b16da7f3d011e893133e8bb9b7e31b0ec943ce52ba5f89c05",
+    "evmEscrowClaim": "0x3bb81211cad7e379385e0663230af82b8e2e7f58859b1ecf535f76a5418e164a"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "orderId": "order_massa_1764064180318",
+  "timestamp": 1764064180318,
+  "network": "sepolia",
+  "chainId": 11155111,
+  "maker": {
+    "address": "0xeD37FD0d6F0f69236E7472B36796e133D20EcC32",
+    "provides": {
+      "asset": "ETH",
+      "amount": "10000000000000000"
+    },
+    "wants": {
+      "asset": "MASSA",
+      "amount": "1000000000",
+      "address": "AU131ocRAfTrQa5utwiRPWpC5aPTgr2EYvHHT8ZePwB18BgVrXCG"
+    }
+  },
+  "secret": "0xbaa0b3a064a20676c98885566afeb2fa21e5fd418ca5a6183e84f201f125d750",
+  "hashlock": "0x8e94d44d5fa7651e66b2249c09b8793efd38a1eb5f46c90ba79985c0257a7817",
+  "timelock": {
+    "withdrawalPeriod": 0,
+    "cancellationPeriod": 3600
+  },
+  "status": "CREATED",
+  "contracts": {
+    "btcEscrowFactory": "0x46dD29f29FB4816A4E7bd1Dc6458d1dFCA097993",
+    "accessToken": "0x0843b69626d78874Dc1A2A576102E081d8bc5438"
+  }
+}

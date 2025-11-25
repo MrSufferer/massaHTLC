@@ -1,0 +1,55 @@
+{
+  "orderId": "order_massa_1764065935317",
+  "timestamp": 1764065935317,
+  "network": "sepolia",
+  "chainId": 11155111,
+  "maker": {
+    "address": "0xeD37FD0d6F0f69236E7472B36796e133D20EcC32",
+    "provides": {
+      "asset": "ETH",
+      "amount": "10000000000000000"
+    },
+    "wants": {
+      "asset": "MASSA",
+      "amount": "1000000000",
+      "address": "AU131ocRAfTrQa5utwiRPWpC5aPTgr2EYvHHT8ZePwB18BgVrXCG"
+    }
+  },
+  "secret": "0x071c4299ed8f31a71002507c30d36bbdd01a0a3900eb9a2aade567ef0a53a343",
+  "hashlock": "0xa2513ca8b07abeca0b29eea6676560550759f51219a2f565abc6516dfd59c59d",
+  "timelock": {
+    "withdrawalPeriod": 0,
+    "cancellationPeriod": 3600
+  },
+  "status": "COMPLETED",
+  "contracts": {
+    "btcEscrowFactory": "0x46dD29f29FB4816A4E7bd1Dc6458d1dFCA097993",
+    "accessToken": "0x0843b69626d78874Dc1A2A576102E081d8bc5438"
+  },
+  "taker": {
+    "address": "0xeD37FD0d6F0f69236E7472B36796e133D20EcC32",
+    "massaAddress": "AU131ocRAfTrQa5utwiRPWpC5aPTgr2EYvHHT8ZePwB18BgVrXCG"
+  },
+  "massaHTLC": {
+    "orderId": "order_massa_1764065935317",
+    "contractAddress": "AS12iLKjMogXvxVcspy8JWzZfMxy3QmAt6PPuxaBVWwsFwJvxHq7m",
+    "hashlock": "a2513ca8b07abeca0b29eea6676560550759f51219a2f565abc6516dfd59c59d",
+    "timelock": "1764069541",
+    "amount": "1000000000",
+    "secret": "0x",
+    "funded": true,
+    "status": "Active",
+    "revealedSecret": "0x071c4299ed8f31a71002507c30d36bbdd01a0a3900eb9a2aade567ef0a53a343"
+  },
+  "evmEscrow": {
+    "address": "0x5026a5dc52bd06F3cfC7937734f087085e5f39e0",
+    "txHash": "0x1c97bd34d1a0cb42d6cd62e30ce15a5efcb6db98c9a00a326d527be50d33da10",
+    "amount": "10000000000000000",
+    "safetyDeposit": "1000000000000000",
+    "creationFee": "1000000000000000"
+  },
+  "transactions": {
+    "evmEscrowCreation": "0x1c97bd34d1a0cb42d6cd62e30ce15a5efcb6db98c9a00a326d527be50d33da10",
+    "evmEscrowClaim": "0xfa8beef54dced563e3d4120bdb859a8fbad4e25d5348f5d27985575cd7cace44"
+  }
+}

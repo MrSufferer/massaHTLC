@@ -1,0 +1,64 @@
+{
+  "orderId": "reverse_massa_order_1764055236365",
+  "timestamp": 1764055236365,
+  "network": "sepolia",
+  "chainId": 11155111,
+  "maker": {
+    "address": "0xeD37FD0d6F0f69236E7472B36796e133D20EcC32",
+    "massaAddress": "AU131ocRAfTrQa5utwiRPWpC5aPTgr2EYvHHT8ZePwB18BgVrXCG",
+    "provides": {
+      "asset": "MASSA",
+      "amount": "1000000000"
+    },
+    "wants": {
+      "asset": "ETH",
+      "amount": "10000000000000000"
+    }
+  },
+  "secret": "0x5e1c1fa4d8558125957e805297354d9489e2587156f925a3ddf375f475805081",
+  "hashlock": "0xa0ba81b2394fa73ce6ef7d89f10b7069ed4068b323718f34e80d4e18954b6240",
+  "timelock": {
+    "withdrawalPeriod": 0,
+    "cancellationPeriod": 3600
+  },
+  "status": "COMPLETED",
+  "contracts": {
+    "btcEscrowFactory": "0x46dD29f29FB4816A4E7bd1Dc6458d1dFCA097993",
+    "accessToken": "0x0843b69626d78874Dc1A2A576102E081d8bc5438"
+  },
+  "massaHTLC": {
+    "orderId": "reverse_massa_order_1764055236365",
+    "contractAddress": "AS12iLKjMogXvxVcspy8JWzZfMxy3QmAt6PPuxaBVWwsFwJvxHq7m",
+    "hashlock": "a0ba81b2394fa73ce6ef7d89f10b7069ed4068b323718f34e80d4e18954b6240",
+    "timelock": "1764058879",
+    "amount": "1000000000",
+    "secret": "0x5e1c1fa4d8558125957e805297354d9489e2587156f925a3ddf375f475805081",
+    "funded": true,
+    "status": "Active",
+    "revealedSecret": "0x5e1c1fa4d8558125957e805297354d9489e2587156f925a3ddf375f475805081"
+  },
+  "taker": {
+    "address": "0xeD37FD0d6F0f69236E7472B36796e133D20EcC32"
+  },
+  "evmEscrow": {
+    "address": "0x44A16C01a1ce45cdfEdb78DDFf39924BE9185a8A",
+    "txHash": "0x1b1fdbf28d098d46ec3f5d6ec885990c81c73c144887a58b63f08cfaf7704bbc",
+    "amount": "10000000000000000",
+    "safetyDeposit": "1000000000000000",
+    "creationFee": "1000000000000000",
+    "immutables": {
+      "orderHash": "0x16dc2e5a17764dac361420d19661c1087341ebbc7e9b48fc301ce445112f74bd",
+      "hashlock": "0xa0ba81b2394fa73ce6ef7d89f10b7069ed4068b323718f34e80d4e18954b6240",
+      "maker": "0xeD37FD0d6F0f69236E7472B36796e133D20EcC32",
+      "taker": "0xeD37FD0d6F0f69236E7472B36796e133D20EcC32",
+      "token": "0x0000000000000000000000000000000000000000",
+      "amount": "10000000000000000",
+      "safetyDeposit": "1000000000000000",
+      "timelocks": "47558838854860368731621884094130087307364106091871112529816760738492570402816"
+    }
+  },
+  "transactions": {
+    "evmEscrowCreation": "0x1b1fdbf28d098d46ec3f5d6ec885990c81c73c144887a58b63f08cfaf7704bbc",
+    "evmEscrowClaim": "0xe3e3100be6837b3e107c248e12b9b99771d1d84761436df4a37ebb9a72a826e7"
+  }
+}
